@@ -20,11 +20,11 @@ const Product = ({ product, onAddToCart }) => {
         title={product.name}
       />
       <CardContent>
-        <div className={classes.content}>
-          <Typography variant="h5" gutterBottom>
+        <div className={classes.cardContent}>
+          <Typography variant="h6" gutterBottom>
             {product.name}
           </Typography>
-          <Typography variant="h5" gutterBottom>
+          <Typography variant="h6" gutterBottom>
             {product.price.formatted_with_symbol}
           </Typography>
         </div>
