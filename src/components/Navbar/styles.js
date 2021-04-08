@@ -27,7 +27,7 @@ export default makeStyles((theme) => ({
     },
   },
   grow: {
-    flexGrow: 5,
+    flexGrow: 1,
   },
   search: {
     position: 'relative',
